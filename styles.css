@@ -1,0 +1,77 @@
+.contenedor{
+    background-color: peru;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+label{
+    font-size: 20px;
+    margin: 10px;
+}
+
+button{
+    margin: 10px;
+
+}
+
+.casillas{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40%;
+
+}
+input{
+
+    width: 100%;
+}
+.titulo
+{
+    width: 90%;
+    text-align: center;
+}
+.boton{
+    width: 90%;
+    text-align: center;
+}
+
+.areaTexto{
+    width: 90%;
+    margin: auto;
+    
+}
+
+textarea{
+    width: 90%;
+    height: 100px;
+    
+    margin: 10px;
+}
+
+
+
+@media(min-width:768px){
+    .contenedor{
+        background-color: yellow;
+        flex-direction: row; /*fila*/
+        flex-wrap: wrap;
+        gap: 20px;
+       justify-content: space-around;
+       
+
+    }
+    textarea{
+        width: 90%;
+        height: 300px;
+        
+        margin: 30px;
+    }
+
+    .casillas{
+        min-width: 45%;
+        
+        
+    }
+}
